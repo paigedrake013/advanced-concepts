@@ -9,7 +9,7 @@ cloudinary.api
   .then(updateResult => {
     console.log(updateResult)
     const url = cloudinary.url('shark', {
-      transformation: ['test-400/f_auto,q_auto']
+      transformation: ['auto-400-xform/f_auto,q_auto']
     })
     console.log(url)
     open(url)
