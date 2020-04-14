@@ -18,6 +18,7 @@ cloudinary.uploader.explicit('killer-whale',
   })
   .then(result => {
     console.log('result', result)
+    // look at the transformed url
     const transformUrl = result.eager[0].secure_url
     console.log('transform url:', transformUrl)
     open(transformUrl)

@@ -5,7 +5,8 @@ const open = require('open')
 cloudinary.uploader.upload('./assets/images/shark.jpg', {
   public_id: 'shark',
   type: 'upload',
-  overwrite: true
+  overwrite: true,
+  invalidate: true
 })
   .then(uploadResult => {
     console.log(uploadResult)
