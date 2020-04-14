@@ -23,9 +23,8 @@ for (const width of range) {
       transformation: [
         {
           variables: [
-            ['$w', width],
+            ['$horizontal', width],
             ['$correctx', '0.04'],
-            ['$correcty', '0.1'],
             ['$logoscalar', '0.4'],
             ['$color', `!${color}!`]
           ]
@@ -33,14 +32,14 @@ for (const width of range) {
         {
           effect: 'replace_color:$color:30:111111'
         },
-        { width: '$w', crop: 'scale' },
+        { width: '$horizontal', crop: 'scale' },
         {
           overlay: 'logo-big',
           crop: 'fit',
           gravity: 'north',
-          width: '$width * $logoscalar',
-          x: '$width * $correctx',
-          y: '$width * 0.1'
+          width: '$horizontal * $logoscalar',
+          x: '$horizontal * $correctx',
+          y: '$horizontal * 0.1'
         },
         {
           dpr: '2.0',

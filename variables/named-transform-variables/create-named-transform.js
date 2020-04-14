@@ -5,14 +5,14 @@ cloudinary.api
   .create_transformation('hat-transform', {
     transformation: [
       { effect: 'replace_color:$color:30:111111' },
-      { width: '$w', crop: 'scale' },
+      { width: '$horizontal', crop: 'scale' },
       {
         overlay: 'logo-big',
         crop: 'fit',
         gravity: 'north',
-        width: '$w * $logoscalar',
-        x: '$w * $correctx',
-        y: '$w * 0.1'
+        width: '$horizontal * $logoscalar',
+        x: '$horizontal * $correctx',
+        y: '$horizontal * 0.1'
       },
       {
         dpr: '2.0',

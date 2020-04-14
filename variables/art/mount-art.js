@@ -45,7 +45,7 @@ function mountArt(publicId) {
   open(url)
 }
 
-const art = ['art-creative-graffiti', 'modern-art', 'snowboard']
+const art = ['modern-art', 'snowboard']
 for (const publicId of art) {
   mountArt(publicId)
 }

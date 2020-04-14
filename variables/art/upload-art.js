@@ -21,4 +21,4 @@ function uploadImage (image) {
 
 uploadImage('./assets/images/snowboard.jpg')
 uploadImage('./assets/images/modern-art.jpg')
-uploadImage('./assets/images/art-creative-graffiti.jpg')
+
