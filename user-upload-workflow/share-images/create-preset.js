@@ -12,14 +12,18 @@ cloudinary.api
       {
         crop: 'fit',
         width: 400,
-        height: 300,
-        quality: 'auto'
+        height: 300
       },
       {
         overlay: 'logo-big',
         width: 100,
         gravity: 'south_east',
         opacity: 50
+      },
+      {
+        quality: 'auto',
+        fetch_format: 'auto',
+        dpr: '2.0'
       }
     ]
   })
