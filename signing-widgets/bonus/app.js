@@ -6,7 +6,7 @@ const express = require('express')
 const app = express()
 app.use(bodyParser.json())
 
-const port = 3000 
+const port = 3000
 
 // accept an object with public_id and tranformation object
 // object will be referenced to req.body
