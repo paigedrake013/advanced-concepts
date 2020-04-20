@@ -31,8 +31,7 @@ export default {
           width: 100,
           gravity: 'north_east',
           x: 5,
-          y: 5,
-          opacity: 70
+          y: 5
         }
       ]
     });

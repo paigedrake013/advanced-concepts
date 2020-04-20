@@ -4,7 +4,7 @@ const cloudinary = require('cloudinary').v2
 const open = require('open')
 
 cloudinary.uploader.upload('./assets/images/banana.jpg', {
-  public_id: 'video-logo',
+  public_id: 'test-logo',
   type: 'upload',
   overwrite: true,
   invalidate: true,
