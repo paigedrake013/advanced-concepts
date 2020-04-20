@@ -18,5 +18,3 @@ const url = cloudinary.url('dolphin', {
 })
 console.log('cloudinary helper:', url)
 open(url)
-
-// https://res.cloudinary.com/picturecloud7/image/authenticated/s--eK4_eXLe--/c_mfit,f_auto,h_400,q_auto,w_400/dolphin

@@ -2,7 +2,7 @@
   <Period duration="PT0H1M0.070S">
     <AdaptationSet segmentAlignment="true" maxWidth="640" maxHeight="360" maxFrameRate="25" par="16:9" lang="und">
       <Representation id="1" mimeType="video/mp4" codecs="avc1.42C01E" width="320" height="180" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="94718">
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1579632944/whale.mp4dv</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1579632944/whale.mp4dv</BaseURL>
         <SegmentList timescale="12800" duration="25600">
           <Initialization range="0-907" />
           <SegmentURL mediaRange="908-20571" indexRange="908-951" />
@@ -38,7 +38,7 @@
         </SegmentList>
       </Representation>
       <Representation id="2" mimeType="video/mp4" codecs="avc1.42C01E" width="480" height="270" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="178418">
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_480,h_270,vc_h264:baseline:3.0,br_800k/v1579632944/whale.mp4dv</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_480,h_270,vc_h264:baseline:3.0,br_800k/v1579632944/whale.mp4dv</BaseURL>
         <SegmentList timescale="12800" duration="25600">
           <Initialization range="0-907" />
           <SegmentURL mediaRange="908-39382" indexRange="908-951" />
@@ -74,7 +74,7 @@
         </SegmentList>
       </Representation>
       <Representation id="3" mimeType="video/mp4" codecs="avc1.42C01E" width="640" height="360" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="300094">
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_640,h_360,vc_h264:baseline:3.0,br_2m/v1579632944/whale.mp4dv</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_640,h_360,vc_h264:baseline:3.0,br_2m/v1579632944/whale.mp4dv</BaseURL>
         <SegmentList timescale="12800" duration="25600">
           <Initialization range="0-907" />
           <SegmentURL mediaRange="908-65920" indexRange="908-951" />
@@ -110,7 +110,7 @@
         </SegmentList>
       </Representation>
       <Representation id="4" mimeType="video/mp4" codecs="avc1.4D401F" width="640" height="360" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="233928">
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_960,h_540,vc_h264:main:3.1,br_3500k/v1579632944/whale.mp4dv</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_960,h_540,vc_h264:main:3.1,br_3500k/v1579632944/whale.mp4dv</BaseURL>
         <SegmentList timescale="12800" duration="25600">
           <Initialization range="0-906" />
           <SegmentURL mediaRange="907-51699" indexRange="907-950" />
@@ -149,7 +149,7 @@
     <AdaptationSet segmentAlignment="true" lang="und">
       <Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1579632944/whale.mp4da</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1579632944/whale.mp4da</BaseURL>
         <SegmentList timescale="22050" duration="44100">
           <Initialization range="0-853" />
           <SegmentURL mediaRange="854-17588" indexRange="854-897" />
@@ -187,7 +187,7 @@
       </Representation>
       <Representation id="6" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_480,h_270,vc_h264:baseline:3.0,br_800k/v1579632944/whale.mp4da</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_480,h_270,vc_h264:baseline:3.0,br_800k/v1579632944/whale.mp4da</BaseURL>
         <SegmentList timescale="22050" duration="44100">
           <Initialization range="0-853" />
           <SegmentURL mediaRange="854-17588" indexRange="854-897" />
@@ -225,7 +225,7 @@
       </Representation>
       <Representation id="7" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_640,h_360,vc_h264:baseline:3.0,br_2m/v1579632944/whale.mp4da</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_640,h_360,vc_h264:baseline:3.0,br_2m/v1579632944/whale.mp4da</BaseURL>
         <SegmentList timescale="22050" duration="44100">
           <Initialization range="0-853" />
           <SegmentURL mediaRange="854-17588" indexRange="854-897" />
@@ -263,7 +263,7 @@
       </Representation>
       <Representation id="8" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1" bandwidth="65674">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-        <BaseURL>/picturecloud7/video/upload/c_limit,w_960,h_540,vc_h264:main:3.1,br_3500k/v1579632944/whale.mp4da</BaseURL>
+        <BaseURL>/cloudinary-training/video/upload/c_limit,w_960,h_540,vc_h264:main:3.1,br_3500k/v1579632944/whale.mp4da</BaseURL>
         <SegmentList timescale="22050" duration="44100">
           <Initialization range="0-853" />
           <SegmentURL mediaRange="854-17588" indexRange="854-897" />

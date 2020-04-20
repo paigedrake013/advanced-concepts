@@ -2,25 +2,25 @@
 
 replace black with white
 and center the logo overlay
-
+Ó
 ### Start
 
 5 Steps to developer the hat.  Need a correction factor because hat is at an angle.
 
 #### Black baseball cap with transparent background: step0.js
-https://res.cloudinary.com/picturecloud7/image/upload//baseball-hat.png    
+https://res.cloudinary.com/cloudinary-training/image/upload//baseball-cap.png    
 
-![start black hat](https://res.cloudinary.com/picturecloud7/image/upload//baseball-hat.png)
+![start black hat](https://res.cloudinary.com/cloudinary-training/image/upload//baseball-cap.png)
 
 #### Make the cap white and auto everything and high res: step1.js
-https://res.cloudinary.com/picturecloud7/image/upload/e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap  
+https://res.cloudinary.com/cloudinary-training/image/upload/e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap  
 
-![make it white](https://res.cloudinary.com/picturecloud7/image/upload/e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap)
+![make it white](https://res.cloudinary.com/cloudinary-training/image/upload/e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap)
 
 #### Add variable for height and width and apply to baseball hat: step2.js
-https://res.cloudinary.com/picturecloud7/image/upload/$horizontal_500,$vertical_500,h_$vertical,w_$horizontal,c_fit,e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap  
+https://res.cloudinary.com/cloudinary-training/image/upload/$horizontal_500,$vertical_500,h_$vertical,w_$horizontal,c_fit,e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap  
 
-![height and scale through variables](https://res.cloudinary.com/picturecloud7/image/upload/$horizontal_500,$vertical_500,h_$vertical,w_$horizontal,c_fit,e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap)
+![height and scale through variables](https://res.cloudinary.com/cloudinary-training/image/upload/$horizontal_500,$vertical_500,h_$vertical,w_$horizontal,c_fit,e_replace_color:ffffff:30:111111,dpr_2.0,f_auto,q_auto/baseball-cap)
 
 #### Add a logo overlay and use (default) g_center (gravity center): step3.js
 provide a variable for the width of the logo  
