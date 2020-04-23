@@ -3,7 +3,7 @@ const cloudinary = require('cloudinary').v2
 
 cloudinary.uploader
   .upload('./assets/images/image-from-tv.jpg', {
-    type: 'private',
+    type: 'upload',
     public_id: 'image-from-tv-1',
     quality_analysis: true,
     invalidate: true
