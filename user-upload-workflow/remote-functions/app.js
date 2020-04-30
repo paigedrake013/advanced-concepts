@@ -74,7 +74,7 @@ const transform = async file => {
   }
 }
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
   res.json({ message: 'use /api/file to post file for transform' })
 })
 
@@ -82,7 +82,7 @@ app.get('/', function(req, res) {
 const storage = multer.memoryStorage()
 const upload = multer({ storage: storage })
 
-app.post('/api/file', upload.fields([{ name: 'file' }]), function(req, res) {
+app.post('/api/file', upload.fields([{ name: 'file' }]), function (req, res) {
   return transform(req.files.file[0])
     .then(result => {
       // return the image and new metadata.

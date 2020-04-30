@@ -10,3 +10,6 @@ curl --location --request POST 'https://secure-caverns-90265.herokuapp.com/api/f
 ```
 ## Custom Function: remote function in transformation
 https://res.cloudinary.com/cloudinary-training/image/upload/s--ZSceRCol--/fn_remote:aHR0cHM6Ly9zZWN1cmUtY2F2ZXJucy05MDI2NS5oZXJva3VhcHAuY29tL2FwaS9maWxl/shell
+
+## Fastly purge
+curl -X PURGE https://res.cloudinary.com/pictures77/image/upload/s--mLnimme6--/fn_remote:aHR0cHM6Ly9zZWN1cmUtY2F2ZXJucy05MDI2NS5oZXJva3VhcHAuY29tL2FwaS9maWxl/bo_6px_solid_coral/shell
