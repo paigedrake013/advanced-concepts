@@ -41,7 +41,3 @@ const url = cloudinary.url('shell', {
 console.log(url)
 open(url)
 
-// const url = cloudinary.url().transformation(
-//   new Transformation().width(80).height(80).crop("fill")
-//     .chain().underlay("site_bg.jpg").width(80).height(80).effect("brightness:100")
-// ).imageTag("smartphone.png");
