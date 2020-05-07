@@ -8,6 +8,7 @@ const url = cloudinary.url('baseball-cap', {
       variables: [
         ['$horizontal', '500'],
         ['$correctx', '0.04'],
+        ['$correcty', '0.1'],
         ['$logoscalar', '0.4'],
         ['$color', '!pink!']
       ]

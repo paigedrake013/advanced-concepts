@@ -12,7 +12,7 @@ cloudinary.api
         gravity: 'north',
         width: '$horizontal * $logoscalar',
         x: '$horizontal * $correctx',
-        y: '$horizontal * 0.1'
+        y: '$horizontal * $correcty'
       },
       {
         dpr: '2.0',
