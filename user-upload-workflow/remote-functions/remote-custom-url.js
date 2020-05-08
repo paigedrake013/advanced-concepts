@@ -12,7 +12,7 @@ const url = cloudinary.url('shell', {
         source: 'https://secure-caverns-90265.herokuapp.com/api/file'
       }
     },
-    { border: '5px_solid_coral' }
+    { border: '15px_solid_coral' }
   ]
 })
 console.log(url)
