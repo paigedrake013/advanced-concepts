@@ -13,7 +13,7 @@ cloudinary.uploader
     const rekTags = uploadResult.info.categorization.aws_rek_tagging.data.filter(
       item => item.confidence > 0.85
     )
-    const alt = rekTags.map(item => item.tag).join(',')
+    const alt = rekTags.map(item => item.tag).join(', ')
     console.log('rekTags', rekTags)
     if (rekTags) {
       // add tags to show up in CL Console
