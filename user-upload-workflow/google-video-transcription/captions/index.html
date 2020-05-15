@@ -10,12 +10,12 @@
   <link rel="icon" href="../../assets/favicon.png" type="image/png" />
 </head>
 
-<body></body>
+<body>
 <h1>Video Player</h1>
 <h2>Closed Captions</h2>
 <div style="max-width:400px">
   <video id="example-player" controls muted class="cld-video-player cld-video-player-skin-dark"
-    data-cld-transformation='{ "width": 500, "crop": "fill"}'>
+    data-cld-transformation='{ "width": 400, "crop": "fill"}'>
   </video>
 </div>
 
@@ -29,15 +29,12 @@
   document.addEventListener("DOMContentLoaded", function () {
 
     // add your cloud name
-    var cld = cloudinary.Cloudinary.new({
+    const cld = cloudinary.Cloudinary.new({
       cloud_name: 'cloudinary-training'
     })
 
-
     // Initialize player
-    var player = cld.videoPlayer('example-player', {
-
-    })
+    const player = cld.videoPlayer('example-player')
 
     // add your video text tracks
     player.source(
