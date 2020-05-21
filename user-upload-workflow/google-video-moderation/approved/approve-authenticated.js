@@ -28,7 +28,7 @@ cloudinary.api
           })
           .then(result => {
             console.log(
-              'no version url:',
+              'new version url:',
               cloudinary.url(result.public_id, {
                 resource_type: 'video',
                 format: result.format
